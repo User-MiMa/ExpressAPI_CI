@@ -1,5 +1,5 @@
 import request from "supertest";
-import { vitest, test, expect, describe, test} from "vitest";
+import { expect, describe, test} from "vitest";
 import { app } from "./app.js";
 
 describe('GET /', ()=>{

@@ -6,8 +6,8 @@
   "scripts": {
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "lint":"pnpm dlx eslint .",
-    "lint:fix":"pnpm dlx eslint . --fix",
+    "lint": "pnpm dlx eslint .",
+    "lint:fix": "pnpm dlx eslint . --fix",
     "start": "node server.js",
     "test": "vitest"
   },

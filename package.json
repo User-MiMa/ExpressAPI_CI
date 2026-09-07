@@ -11,7 +11,10 @@
     "lint": "pnpm dlx eslint .",
     "lint:fix": "pnpm dlx eslint . --fix",
     "start": "node server.js",
-    "test": "vitest"
+    "test": "vitest",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
